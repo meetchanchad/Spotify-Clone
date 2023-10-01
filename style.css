@@ -33,6 +33,7 @@ body {
     border-radius: 0.75rem;
     /*16px*/
     overflow: auto;
+    padding: 0 1.5rem;
 }
 
 .music-player {
@@ -48,6 +49,8 @@ a {
     color: #fff;
 }
 
+
+/* Sidebar Section */
 .nav {
     background-color: #121212;
     border-radius: 0.75rem;
@@ -147,6 +150,8 @@ a {
     color: #fff;
 }
 
+
+/* Sticky Nav in Main Section */
 .sticky-nav {
     position: sticky;
     top: 0;
@@ -155,6 +160,7 @@ a {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 0;
+    z-index: 10;
 }
 
 .sticky-nav-icons {
@@ -175,4 +181,55 @@ a {
     .hide {
         display: none;
     }
+}
+
+
+/* Main Section */
+.card {
+    background-color: #232323;
+    width: 150px;
+    border-radius: 0.75rem;
+    padding: 1rem;
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+h2 {
+    margin-bottom: 1rem;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-img {
+    width: 100%;
+    border-radius: 0.75rem;
+    margin-bottom: 1rem;
+}
+
+.card-title {
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.card-info {
+    font-size: 0.85rem;
+    margin-bottom: 1rem;
+    opacity: 0.8;
+}
+
+.footer {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line {
+    width: 90%;
+    height: 50%;
+    border-top: 1px solid #fff;
+    opacity: 0.3;
 }
